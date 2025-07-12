@@ -1,0 +1,13 @@
+/* Common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Typography */
+/* Navbar Design */
+.nav-bar{
+    max-width: 1120px;
+    border: 5px solid black;
+    display: flex;
+}
