@@ -7,6 +7,7 @@
   max-width: 1280px;
   margin: auto;
 }
+/* Button design */
 .btn {
   border-radius: 6px;
   background: linear-gradient(
@@ -26,11 +27,26 @@
   font-weight: 500;
   padding: 14px 20px 14px 20px;
 }
-/* Typography */
+.sb-btn {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) 0.004%,
+    rgb(255, 19, 111) 100.004%
+  );
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 10px 20px;
+}
 /* Navbar Design */
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  margin-top:25px;
+  margin-top: 60px;
 }
 .nav-bar-search {
   position: relative;
@@ -63,6 +79,9 @@
   color: #707070;
 }
 /* Banner Design */
+.banner{
+  margin-bottom: 60px;
+}
 .banner-container {
   display: flex;
   justify-content: space-between;
@@ -103,6 +122,9 @@
   height: 378px;
 }
 /* Category Design */
+.category{
+  margin-bottom: 60px;
+}
 .category h2 {
   margin: 24px auto;
 }
@@ -153,6 +175,10 @@
   );
 }
 /* Shoe Section & Backpack section design*/
+.shoes,
+.back-packs{
+  margin-bottom: 60px;
+}
 .shoes-header,
 .backpack-header {
   display: flex;
@@ -228,4 +254,35 @@
 .shoe img,
 .backpack img {
   max-width: 300px;
+}
+/* Footer Design */
+footer h1 {
+  color: rgb(31, 31, 31);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+footer p {
+  color: rgb(112, 112, 112);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.search-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom:75px;
+}
+footer input{
+  border: none;
+  padding: 20px 150px;
+}
+footer input ::placeholder{
+color: rgb(204, 204, 204);
+font-size: 24px;
+font-weight: 400;
+padding: 0px 100px;
 }
