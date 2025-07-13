@@ -1,17 +1,22 @@
 /* Common Reuse*/
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   max-width: 1280px;
   margin: auto;
 }
-.btn{
-    border-radius: 6px;
-    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
-    padding: 15px 30px;
-    color: white;
-    border: none;
+.btn {
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  padding: 15px 30px;
+  color: white;
+  border: none;
 }
 /* Typography */
 /* Navbar Design */
@@ -67,12 +72,15 @@
   line-height: 84px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 10px;
 }
 .banner-text p {
   color: rgb(78, 78, 78);
   font-size: 16px;
   font-weight: 400;
   text-align: left;
+  max-width: 450px;
+  margin-bottom: 10px;
 }
 .banner-text .banner-price {
   color: rgb(255, 19, 111);
@@ -80,20 +88,55 @@
   font-weight: bold;
   text-align: left;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .banner-image img {
   width: 402px;
   height: 378px;
 }
 /* Category Design */
+.category h2{
+    margin: 24px auto;
+}
 .category-container-items {
   display: flex;
   justify-content: space-between;
   align-self: center;
+  gap: 30px;
+  padding: 20px;
 }
-.category-container-item {
+.category-container-items h3{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+.category-item-cards{
+    border-radius: 5px;
+    flex: 1;
+}
+.category-container-item-1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+}
+.category-container-item-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+}
+.category-container-item-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
