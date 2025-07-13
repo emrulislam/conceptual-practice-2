@@ -7,7 +7,19 @@
 /* Typography */
 /* Navbar Design */
 .nav-bar{
-    max-width: 1120px;
-    border: 5px solid black;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
+.nav-bar-list ul{
+    display: flex;
+    justify-content: ;
+}
+.nav-bar-list ul li{
+    list-style: none;
+}
+.nav-bar-list ul li a{
+    text-decoration: none;
+}
+/* Banner Design */
