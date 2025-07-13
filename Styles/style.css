@@ -14,9 +14,19 @@
 }
 .nav-bar-search{
     position: relative;
+    width: 500px;
+    background-color: rgb(241,241,241);
+    border-radius: 66px;
+}
+.nav-bar-search input{
+    padding: 12px;
+    border: none;
+    color: #cccccc;
 }
 .nav-bar-search i{
     position: absolute;
+    padding: 12px;
+    color: #bababa;
     right: 10px;
     top: 2px;
 }
@@ -31,3 +41,35 @@
     text-decoration: none;
 }
 /* Banner Design */
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #FEEAE9;
+}
+.banner-text{
+    width: 45%;
+}
+.banner-image{
+    width: 45%;
+}
+/* Category Design */
+.category{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.category-container-items{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.category-container-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
