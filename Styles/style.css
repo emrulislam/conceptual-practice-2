@@ -12,6 +12,14 @@
     align-items: center;
     margin: 0 auto;
 }
+.nav-bar-search{
+    position: relative;
+}
+.nav-bar-search i{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
 .nav-bar-list ul{
     display: flex;
     justify-content: ;
