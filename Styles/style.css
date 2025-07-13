@@ -18,6 +18,14 @@
   color: white;
   border: none;
 }
+.bn-btn {
+  border-radius: 6px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px 14px 20px;
+}
 /* Typography */
 /* Navbar Design */
 .nav-bar {
@@ -95,8 +103,8 @@
   height: 378px;
 }
 /* Category Design */
-.category h2{
-    margin: 24px auto;
+.category h2 {
+  margin: 24px auto;
 }
 .category-container-items {
   display: flex;
@@ -105,14 +113,14 @@
   gap: 30px;
   padding: 20px;
 }
-.category-container-items h3{
-    font-weight: bold;
-    font-size: 36px;
-    color: white;
+.category-container-items h3 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
 }
-.category-item-cards{
-    border-radius: 5px;
-    flex: 1;
+.category-item-cards {
+  border-radius: 5px;
+  flex: 1;
 }
 .category-container-item-1 {
   display: flex;
@@ -138,23 +146,86 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
 }
-/* Shoe Section */
-.shoe-container,.backpack-container{
+/* Shoe Section & Backpack section design*/
+.shoes-header,
+.backpack-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoes-header h1,
+.backpack-header h1 {
+  color: rgb(31, 31, 31);
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.shoes-header p,
+.backpack-header p {
+  color: rgb(255, 157, 0);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.shoe-title,
+.backpack-title {
+  color: rgb(31, 31, 31);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.shoe-description,
+.backpack-description {
+  color: rgb(78, 78, 78);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 16px 0;
+}
+.shoe-price,
+.backpack-price {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 16px 0;
+}
+.shoe-container,
+.backpack-container {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
-.shoe,.backpack{
+.shoe,
+.backpack {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 312px;
-  padding: 24px
+  /* padding: 24px */
 }
-.shoe img,.backpack img{
-  max-width:300px ;
+.shoe img,
+.backpack img {
+  max-width: 300px;
 }
-/* Backpack Section */
-/* Footer Section */
