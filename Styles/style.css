@@ -140,3 +140,21 @@
   align-items: center;
   background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
+/* Shoe Section */
+.shoe-container,.backpack-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.shoe,.backpack{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 312px;
+  padding: 24px
+}
+.shoe img,.backpack img{
+  max-width:300px ;
+}
+/* Backpack Section */
+/* Footer Section */
